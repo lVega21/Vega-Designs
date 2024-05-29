@@ -568,7 +568,7 @@ HELPER CLASSES
 RESPONSIVE
 ***********************/
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 700px) {
 	
 	/**********************
 	CONTACT SECTION
@@ -584,7 +584,7 @@ RESPONSIVE
 
 	}
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 700px) {
 
 	/**********************
 	SERVICES SECTION
@@ -613,7 +613,7 @@ color:#e4e4e4;
 
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 700px) {
 	
 	/**********************
 	DEFAULT
