@@ -4,20 +4,13 @@ DEFAULT
 
 body {
 	padding-top: 90px;
-
 	font-family: 'Poppins', serif;
 	font-size: 15px;
 	color: #637988;
 	line-height: 1.7;
 	min-height: 800px;
-
-	font-family: 'Crimson Text', serif;
-	font-size: 15px;
-	color: #637988;
-	line-height: 1.7;
-
 }
-
+	
 ul, ol {
 	list-style-type: none;
 	padding: 0;
@@ -39,11 +32,7 @@ p {
 }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, label, button, .btn {
-
 	font-family: 'Poppins', sans-serif;
-
-	font-family: 'Montserrat', sans-serif;
-
 	text-transform: uppercase;
 	margin: 0;
 }
@@ -61,14 +50,10 @@ h2 {
 }
 
 h2.section-title {
-
 	color: #252525;
 }
 .text_relleno{
 color: #707070;
-
-
-	color: #231f20;
 
 }
 
@@ -194,11 +179,7 @@ NAVBAR
 
 .navbar-default .navbar-toggle:focus .icon-bar, 
 .navbar-default .navbar-toggle:hover .icon-bar {
-
 	background: #00fc0d;
-
-	background: #00c7fc;
-
 }
 
 /**********************
@@ -282,13 +263,8 @@ HOME SECTION
 .home-content .btn-primary:active:focus, 
 .home-content .btn-primary:active:hover {
 	background: #ffffff;
-
 	color: #3bfc00;
 	border-color: #3bfc00;
-
-	color: #00c7fc;
-	border-color: #00c7fc;
-
 }
 
 .down-icon {
@@ -300,13 +276,9 @@ HOME SECTION
 }
 
 .down-arrow {
-
 	animation: scrollDown 1s infinite;
 	width: 30px;
 	height: 30px;
-
-	animation: scrollDown 2s infinite;
-
 }
 
 @keyframes scrollDown {
@@ -364,11 +336,7 @@ PORTFOLIO SECTION
 	width: 100%;
 	height: 370px;
 	padding: 61px 33px 54px;
-
 	background: #009600;
-=======
-	background: #04a3ce;
-
 	color: #ffffff;
 	text-align: center;
 	transition: all .3s ease-out;
@@ -394,7 +362,6 @@ SERVICES SECTION
 	background: #ffffff;
 	padding: 58px 61px 98px;
 	text-align: center;
-
 	image-resolution: 200px;
 }
 .icons{
@@ -407,14 +374,11 @@ SERVICES SECTION
 	height: 80px;
 }
 
-}
+
 .service .separator {
 	width: 30px;
-
+	height: 2px;
 	background-color: #009600;
-
-	background-color: #00c7fc;
-
 	margin: 25px auto 0;
 }
 
@@ -486,7 +450,6 @@ CONTACT SECTION
 	width: 30px;
 	height: 2px;
 	background-color: #00fc2a;
-	background-color: #00c7fc;
 	margin: 46px auto 0;
 }
 
@@ -535,7 +498,6 @@ CONTACT SECTION
 
 #form-subsection .btn-default {
 	color: #04df04;
-	color: #00c7fc;
 	background: transparent;
 	border: 0;
 	border-color: transparent;
@@ -562,7 +524,6 @@ FOOTER SECTION
 
 #footer {
 	background: #009600;
-	background: #00c7fc;
 	color: #ffffff;
 	padding: 55px 0;
 }
@@ -607,11 +568,7 @@ HELPER CLASSES
 RESPONSIVE
 ***********************/
 
-
 @media only screen and (max-width: 00px) {
-
-@media only screen and (max-width: 1199px) {
-
 	
 	/**********************
 	CONTACT SECTION
@@ -619,7 +576,6 @@ RESPONSIVE
 	
 	#about-subsection, #form-subsection {
 		padding: 95px 70px 70px;
-
 		flex-direction: column;
 		height: 120px;
 		justify-content: space-evenly;
@@ -629,14 +585,6 @@ RESPONSIVE
 	}
 
 @media only screen and (max-width: 500px) {
-
-		min-height: 560px;
-	}
-
-}
-
-@media only screen and (max-width: 991px) {
-
 
 	/**********************
 	SERVICES SECTION
@@ -651,11 +599,7 @@ RESPONSIVE
 
 	#about-subsection, #form-subsection {
 		padding: 80px;
-
 		min-height:auto;
-
-		min-height: auto;
-
 	}
 
 	#form-subsection {
@@ -664,16 +608,12 @@ RESPONSIVE
 
 }
 
-
 .dire{
 color:#e4e4e4;
 
 }
 
 @media only screen and (max-width: 500px) {
-
-@media only screen and (max-width: 767px) {
-
 	
 	/**********************
 	DEFAULT
@@ -746,11 +686,7 @@ color:#e4e4e4;
 
 }
 
-
 @media only screen and (max-width: 500px) {
-
-@media only screen and (max-width: 575px) {
-
 
 	/**********************
 	HOME SECTION
