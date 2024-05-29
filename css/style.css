@@ -4,7 +4,7 @@ DEFAULT
 
 body {
 	padding-top: 90px;
-	font-family: 'Poppins', serif;
+	font-family: 'Montserrat', serif;
 	font-size: 15px;
 	color: #637988;
 	line-height: 1.7;
@@ -32,7 +32,7 @@ p {
 }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, label, button, .btn {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
 	margin: 0;
 }
