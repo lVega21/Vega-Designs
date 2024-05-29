@@ -1,704 +1,446 @@
-/**********************
-DEFAULT
-***********************/
 
-body {
-	padding-top: 90px;
-	font-family: 'Montserrat', serif;
-	font-size: 15px;
-	color: #637988;
-	line-height: 1.7;
-	min-height: 800px;
-}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Modus - Single Page Portfolio Theme | GraphBerry.com</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Free singlepage web template created by GraphBerry">
+    <meta name="keywords" content="HTML5, Bootstrap 3, CSS3, javascript, PHP, Responsive, Mobile">
+    <meta name="author" content="GraphBerry.com"/>
+    <!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i" rel="stylesheet">
+    <!-- Styles -->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body class="bodys">
+
+	<header id="header">
+		
+		<!-- Section title -->
+		<h1 class="sr-only">Modus | Home page</h1>
+		
+		<nav class="navbar navbar-default navbar-fixed-top">
+		  <!-- Section title -->
+		  <h1 class="sr-only">Main navigation</h1>
+
+		  <div class="container">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a class="navbar-brand smoothScroll" href="#home">
+		        <img alt="Modus" src="img/logo.png">
+		      </a>
+		    </div>
+
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="main-navbar">
+		      <ul class="nav navbar-nav navbar-right">
+		        <li class="active"><a class="smoothScroll" href="#home">Home <span class="sr-only">(current)</span></a></li>
+		        <li><a class="smoothScroll" href="#portfolio">Portafolio</a></li>
+		        <li><a class="smoothScroll" href="#services">Servicios</a></li>
+		        <li><a class="smoothScroll" href="#clients">Clientes</a></li>
+		        <li><a class="smoothScroll" href="#contact">Contacto</a></li>
+		      </ul>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container -->
+		</nav>
+
+	</header>
+
+	<main>
+		
+		<section id="home">
+
+			<!-- Section title -->
+			<h1 class="sr-only">Home section</h1>
+			
+			<div class="overlay"></div>
+
+			<div class="home-content">
+				
+				<div class="container">
+					
+					<div class="row">
+
+						<div class="col-md-8 col-md-offset-2">
+							
+							<span class="h5">Diseñador Gráfico</span class="h5">
+
+							<h2 class="h1">Transformamos ideas en arte visual</h2>
+
+							<!--<div class="cta-container">
+
+								<a href="#" class="btn btn-default">Preview</a>
+
+								<button href="#" class="btn btn-primary">Get theme</button>
+
+							</div>-->
+
+						</div>
+						
+					</div>
+
+				</div>
+
+			</div>
+
+			<a id="down-icon" class="down-icon smoothScroll" href="#history">
+				<img class="down-arrow" src="img/svg/down_icon.svg	" alt="Down arrow">
+			</a>
+
+		</section>
+
+		<section id="history">
+
+			<!-- Section title -->
+			<h1 class="sr-only">History section</h1>
+
+			<div class="container">
+
+				<div class="row">
+					
+					<div class="col-md-8 col-md-offset-2">
+
+						<div class="history-content">
+							
+							<h2 class="section-title">¿Quiénes somos?</h2>
+
+							<p class="text_relleno">¡Hola! Soy Leonardo líder de Vega Designs, un apasionado al diseño gráfico con una creatividad desbordante y un ojo meticuloso para el detalle.
+								<br><br>Mi objetivo es guiar a mi equipo para convertir ideas en imágenes impactantes que comuniquen de manera efectiva y memorable. Nos especializamos en crear identidades visuales únicas, desde logotipos y branding hasta material promocional.
+								<br><br>Nuestro enfoque es centrarnos en el cliente para interpretar sus necesidades, esto me permiten ofrecer soluciones gráficas que superan expectativas.
+								<br><br>¡Estoy emocionado de colaborar contigo para hacer realidad tus proyectos creativos!.</p>
+
+						</div>
+
+					</div>
+
+				</div>
+				
+			</div>	
+
+		</section>
+
+		<section id="portfolio">
+
+			<!-- Section title -->
+			<h1 class="sr-only">Portfolio section</h1>
+
+			<div class="slider-container">
+
+				<figure class="project grabbable">
+					<img class="img-responsive" src="img/portfolio/01.jpg" alt="Project Image">
+					<div class="description">
+						<figcaption><h5>Flyer / Afiches</h5></figcaption>
+						<p>Nuestro equipo combina diseño atractivo y contenido efectivo para garantizar que tu publicidad destaque y atraiga la atención de tu público objetivo.</p>
+						<ul class="social-list">
+							<li><a href="https://wa.me/595986571302"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+<li><a href="https://www.instagram.com/vegadesigns_enc/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+						</ul>
+					</div>
+				</figure>
+
+				<figure class="project grabbable">
+					<img class="img-responsive" src="img/portfolio/02.jpg" alt="Project Image">
+					<div class="description">
+						<figcaption><h5>Tarjetas</h5></figcaption>
+						<p> Nuestros diseños personalizados te ayudarán a causar una excelente primera impresión y a destacar en cualquier red de contactos.
+					    </p>
+						<ul class="social-list">
+							<li><a href="https://wa.me/595986571302"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+<li><a href="https://www.instagram.com/vegadesigns_enc/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+						</ul>
+					</div>
+				</figure>
+
+				<figure class="project grabbable">
+					<img class="img-responsive" src="img/portfolio/03.jpg" alt="Project Image">
+					<div class="description">
+						<figcaption><h5>Carteleria</h5></figcaption>
+						<p>Diseñamos cartelería impactante y de alta calidad para captar la atención de tu audiencia.
+							Desde grandes formatos hasta detalles precisos. </p>
+						<ul class="social-list">
+							<li><a href="https://wa.me/595986571302"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+<li><a href="https://www.instagram.com/vegadesigns_enc/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+						</ul>
+					</div>
+				</figure>
+
+				<figure class="project grabbable">
+					<img class="img-responsive" src="img/portfolio/04.jpg" alt="Project Image">
+					<div class="description">
+						<figcaption><h5>Wrapping</h5></figcaption>
+						<p>Diseñamos wrapping [ploteado] para vehículos y escaparates que convierten tu negocio en una publicidad móvil y visualmente atractiva. </p>
+						<ul class="social-list">
+							<li><a href="https://wa.me/595986571302"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+<li><a href="https://www.instagram.com/vegadesigns_enc/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+						</ul>
+					</div>
+				</figure>
+
+				<figure class="project grabbable">
+					<img class="img-responsive" src="img/portfolio/05.jpg" alt="Project Image">
+					<div class="description">
+						<figcaption><h5>Insumos</h5></figcaption>
+						<p>Diseñamos insumos personalizados para oficina, termos y tazas asegurando que tu logo y mensaje se vean profesional y atractivo. </p>
+						<ul class="social-list">
+							<li><a href="https://wa.me/595986571302"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+<li><a href="https://www.instagram.com/vegadesigns_enc/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+						</ul>
+					</div>
+				</figure>
+
+				<figure class="project grabbable">
+					<img class="img-responsive" src="img/portfolio/06.jpg" alt="Project Image">
+					<div class="description">
+						<figcaption><h5>Clothing</h5></figcaption>
+						<p>Diseñamos camisetas personalizadas que combinan estilo y funcionalidad que te permiten destacar entre los demas.
+							 </p>
+						<ul class="social-list">
+							<li><a href="https://wa.me/595986571302"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+<li><a href="https://www.instagram.com/vegadesigns_enc/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+						</ul>
+					</div>
+				</figure>
+
+			</div>
+
+		</section>
+
+		<section id="services">
+
+			<!-- Section title -->
+			<h1 class="sr-only">Services section</h1>
+			
+			<div class="container">
+				
+				<div class="row">
+					
+					<div class="col-md-4">
+						
+						<div class="service">
+							<figure>
+								<img src="img/svg/services/idea.svg" alt="Idea image" class="icons">
+								<div class="separator"></div>
+								<figcaption><h5>Identidad Visual / Marca </h5></figcaption>
+							</figure>
+							<p class="text_relleno">- Logotipos
+							<br>- Marca Personal | Comercial
+							<br>- Marca de boda | Evento
+						    </p>
+						</div>
+
+					</div>
+
+					<div class="col-md-4">
+
+						<div class="service">
+							<figure>
+								<img src="img/svg/services/work.svg" alt="Work image" class="icons">
+								<div class="separator"></div>
+								<figcaption><h5>DISEÑO PUBLICITARIO</h5></figcaption>
+							</figure>
+							<p class="text_relleno">- Revista | Impresión publicitaria
+							<br>- Anuncio en línea
+							<br>- Diseño para redes sociales</p>
+						</div>
+
+					</div>
+					
+					<div class="col-md-4">
+
+						<div class="service">
+							<figure>
+								<img src="img/svg/services/deliver.svg" alt="Deliver image" class="icons">
+								<div class="separator"></div>
+								<figcaption><h5>Diseño Impreso y Editorial</h5></figcaption>
+							</figure>
+							<p class="text_relleno">- Material de marketing | Tarjetas de visita y de presentación | Póster | Folleto
+								<br>- Menú | Ropa | Pegatina | Infografía
+								<br>- Wrapping [ploteado] de vehículos y escaparates
+								<br>- Diseño de indumentaria deportiva y casual </p>
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</section>
+
+		<section id="clients">
+
+			<!-- Section title -->
+			<h1 class="sr-only">Clients section</h1>
+			
+			<div class="container">
+
+				<div class="row">
+
+					<div class="col-md-8 col-md-offset-2">
+
+						<div class="clients-content">
+			
+							<h2 class="section-title">clientes anteriores</h2>
+
+							<blockquote>
+								<p class="text_relleno">Nos enorgullecemos de colaborar con una variedad de marcas de renombre que valoran el diseño innovador y la calidad excepcional.
+									Hemos tenido el privilegio de trabajar con clientes de diferentes sectores, ayudándolos a materializar sus visiones creativas.
+									Aquí hay algunas de las marcas destacadas que han confiado en nuestros servicios</p>
+								<footer><cite title="Mr. Lorem Ipsum">Vega Designs</cite></footer>
+							</blockquote>
+
+						</div>
+
+					</div>
+
+				</div>
+
+				<div class="clients-logs-container">
+
+					<div class="row">
+						
+						<div class="col-sm-3">
+							<div class="single-client-container">
+								<img src="img/svg/clients/stephenson_web_design.svg" alt="Client logo image" class="logo">
+							</div>
+						</div>
+
+						<div class="col-sm-3">
+							<div class="single-client-container">
+								<img src="img/svg/clients/john_doe_design.svg" alt="Client logo image" class="logo">
+							</div>
+						</div>
+
+						<div class="col-sm-3">
+							<div class="single-client-container">
+								<img src="img/svg/clients/john_stephenson.svg" alt="Client logo image" class="logo">
+							</div>
+						</div>
+
+						<div class="col-sm-3">
+							<div class="single-client-container">
+								<img src="img/svg/clients/stephenson_william.svg" alt="Client logo image" class="logo">
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</section>
+
+		<section id="contact">
+
+			<!-- Section title -->
+			<h1 class="sr-only">Contact section</h1>
+			
+			<div class="container">
+					
+				<div class="row">
+					
+					<div class="col-md-6">
+						
+						<div id="about-subsection" class="contact-subsection">
+							
+							<h2 class="sub-section-title">Sobre nosotros</h2>
+
+							<p>En Vega Designs ademas de crear diseños creativos creamos conexiones emocionales que resuenan con tu audiencia y reflejan la esencia única de tu marca.
+							Con atención al detalle y un compromiso inquebrantable con la calidad, nos esforzamos por llevar tu visión más allá de tus expectativas.
+								
+								<br><br>¿Listo para elevar tu presencia visual al siguiente nivel? ¡Únete a nosotros en el viaje de transformar lo ordinario en extraordinario!
+								<br><br>Escríbenos para discutir proyectos que podríamos hacer juntos.Si tienes una idea en mente, la haré y la haré bien.</p>
+
+						</div>
+
+					</div>
+
+					<div class="col-md-6">
+						
+						<div id="form-subsection" class="contact-subsection">
+							
+							<h2 class="sub-section-title">Contacto</h2>
+
+							<form>
+
+								<div class="form-group">
+									<label class="email-label" for="Email">Email</label>
+									<input type="email" class="form-control" id="Email">
+								</div>
+
+								<div class="form-group">
+								    <label class="message-label" for="Message">Mensaje</label>
+								  	<textarea class="form-control" id="Message" rows="2"></textarea>
+								</div>
+							  
+							  	<button type="submit" class="btn btn-default pull-right">Enviar</button>
+
+							</form>
+
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</section>
+
+	</main>
+
+	<footer id="footer">
+
+		<!-- Section title -->
+		<h1 class="sr-only">Footer section</h1>
+		
+		<div class="container">
+
+			<div class="row">
+
+				<div class="col-sm-6">
+					<small class="copyright"> © <span id="year">2017</span> - <a href="http://www.graphberry.com" class="dire">Vega Designs</a> All Right Reserved</small>
+				</div>
+
+				<div class="col-sm-6">
+					<ul class="social-list">
+						<!--<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>-->
+						<li><a href="https://wa.me/595986571302"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+						<li><a href="https://www.instagram.com/vegadesigns_enc/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+					</ul>
+				</div>
+
+			</div>
+			
+		</div>
+
+	</footer>
+
+	<!-- Scripts -->
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/smooth-scroll.min.js"></script>
+	<script type="text/javascript" src="js/modernizr.mq.js"></script>
+	<script type="text/javascript" src="js/slick.min.js"></script>
+
+	<!-- Latest compiled and minified JavaScript Bootstrap-->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	
-ul, ol {
-	list-style-type: none;
-	padding: 0;
-	margin: 0;
-}
-
-.social-list li {
-	display: inline-block;
-}
-
-.social-list a {
-	padding: 20px;
-	color: #fff;
-	text-decoration: none;
-}
-
-p {
-	margin: 0;
-}
-
-h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, label, button, .btn {
-	font-family: 'Montserrat', serif;
-	text-transform: uppercase;
-	margin: 0;
-}
-
-h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
-	display: block;
-}
-
-h1, .h1 {
-	font-size: 50px;
-}
-
-h2 {
-	font-size: 25px;
-}
-
-h2.section-title {
-	color: #252525;
-}
-.text_relleno{
-color: #707070;
-
-}
-
-h2.section-title:after {
-	display: block;
-	content: '';
-	width: 100%;
-	height: 19px;
-	background: url('../img/svg/separator.svg') center center no-repeat;
-	margin-top: 45px;
-}
-
-h5 {
-	font-size: 15px;
-	letter-spacing: 0.2em;
-}
-
-section {
-	position: relative;
-}
-
-section:nth-child(odd){
-	background-color: #ffffff;
-}
-
-section:nth-child(even){
-	background-color: #f4f4f4;
-}
-
-blockquote {
-	padding: 0;
-	margin: 0;
-	border: 0;
-}
-
-form {
-	text-align: left;
-}
-
-label {
-	font-weight: normal;
-}
-
-button, .btn {
-	font-size: 15px;
-}
-
-.form-group {
-	margin: 0;
-}
-
-.form-control {
-	background-color: transparent;
-	color: #ffffff;
-	border: none;
-	border-bottom: 1px solid #707070;
-	border-radius: 0;
-	transition: all 0.3s ease-out;
-}
-
-.form-control:focus {
-	border-color: #ffffff;
-	box-shadow: none;
-}
-
-/**********************
-NAVBAR
-***********************/
-
-.navbar {
-	min-height: 90px;
-	font-family: 'Montserrat', serif;
-	text-transform: uppercase;
-}
-
-.navbar-default {
-	background-color: #1C1C1C;
-}
-
-.navbar-brand {
-	height: 90px;
-	padding: 23px;
-}
-
-.navbar-brand img {
-	max-height: 44px;
-}
-
-.navbar-default .navbar-nav>li>a {
-	font-size: 13px;
-	color: #ffffff;
-	padding: 35px 23px;
-}
-
-.navbar-default .navbar-nav>li>a:focus, 
-.navbar-default .navbar-nav>li>a:hover {
-	color: #00E500;
-	background-color: transparent;
-}
-
-.navbar-default .navbar-nav>.active>a, 
-.navbar-default .navbar-nav>.active>a:focus, 
-.navbar-default .navbar-nav>.active>a:hover {
-	color: #00E500;
-	background-color: transparent;
-}
-
-.navbar-default .navbar-toggle {
-	margin-top: 28px;
-	margin-bottom: 28px;
-	border: 0;
-	border-radius: 0;
-}
-
-.navbar-default .navbar-toggle .icon-bar {
-	background: #707070;
-}
-
-.navbar-default .navbar-toggle:focus, 
-.navbar-default .navbar-toggle:hover {
-	background-color: transparent;
-}
-
-.navbar-default .navbar-toggle:focus .icon-bar, 
-.navbar-default .navbar-toggle:hover .icon-bar {
-	background: #00fc0d;
-}
-
-/**********************
-HOME SECTION
-***********************/
-
-#home {
-	height: 725px;
-	background: url("../img/header.jpg") center center no-repeat;
-	background-size: cover;
-}
-
-.overlay {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: rgba(0,0,0,.8);
-}
-
-.home-content {
-	position: absolute;
-	width: 100%;
-	top: 50%;
-	transform: translateY(-50%);
-	text-align: center;
-	color: #ffffff;
-}
-
-.home-content .h1,
-.home-content h2 {
-	margin-top: 45px;
-}
-
-.home-content .cta-container {
-	margin-top: 54px;
-}
-
-.home-content .btn {
-	letter-spacing: 0.2em;
-	margin:0 15px;
-	text-align: center;
-	padding: 0;
-	width: 200px;
-	height: 60px;
-	line-height: 60px;
-	box-sizing: border-box;
-	color: #ffffff;
-	transition: all 0.3s;
-	outline: none;
-	box-shadow: none;
-}
-
-.home-content .btn-default {
-	background-color: transparent;
-	border: 1px solid #ffffff;
-}
-
-.home-content .btn-default:hover,
-.home-content .btn-default.active.focus, 
-.home-content .btn-default.active:focus, 
-.home-content .btn-default.active:hover, 
-.home-content .btn-default:active.focus, 
-.home-content .btn-default:active:focus, 
-.home-content .btn-default:active:hover {
-	background: #ffffff;
-	color: #231f20;
-	border-color: #ffffff;
-}
-
-.home-content .btn-primary {
-	background-color: #00c7fc;
-}
-
-.home-content .btn-primary:hover,
-.home-content .btn-primary.active.focus, 
-.home-content .btn-primary.active:focus, 
-.home-content .btn-primary.active:hover, 
-.home-content .btn-primary:active.focus, 
-.home-content .btn-primary:active:focus, 
-.home-content .btn-primary:active:hover {
-	background: #ffffff;
-	color: #3bfc00;
-	border-color: #3bfc00;
-}
-
-.down-icon {
-	position: absolute;
-	left: 50%;
-	transform: translateX(-50%);
-	bottom: 0;
-	padding: 45px 15px 15px;
-}
-
-.down-arrow {
-	animation: scrollDown 1s infinite;
-	width: 30px;
-	height: 30px;
-}
-
-@keyframes scrollDown {
-	0%, 20%, 50%, 80%, 100% {
-    transform: translateY(0);
-  }
-	40% {
-    transform: translateY(-30px);
-  }
-	60% {
-    transform: translateY(-15px);
-  }
-}
-
-/**********************
-HISTORY SECTION
-***********************/
-
-#history {
-	/*background-color: #f4f4f4;*/
-	padding: 145px 0 152px;
-}
-
-.history-content {
-	text-align: center;
-}
-
-.history-content p {
-	margin-top: 42px;
-}
-
-/**********************
-PORTFOLIO SECTION
-***********************/
-
-.project {
-	position: relative;
-	width: 320px;
-	height: 555px;
-	overflow: hidden;
-	outline: none;
-}
-
-.project:hover .description {
-	transform: translateY(-100%);
-}
-
-.project img {
-	width: 100%;
-}
-
-
-.project .description {
-	position: absolute;
-	width: 100%;
-	height: 370px;
-	padding: 61px 33px 54px;
-	background: #009600;
-	color: #ffffff;
-	text-align: center;
-	transition: all .3s ease-out;
-}
-
-.project .description p {
-	margin-top: 65px;
-}
-
-.project .description .social-list {
-	margin-top: 54px;
-}
-
-/**********************
-SERVICES SECTION
-***********************/
-
-#services {
-	padding: 145px 0;
-}
-
-.service {
-	background: #ffffff;
-	padding: 58px 61px 98px;
-	text-align: center;
-	image-resolution: 200px;
-}
-.icons{
-	width: 52px;
-	height: 52px;
-}
-
-.logo{
-	width: 80px;
-	height: 80px;
-}
-
-
-.service .separator {
-	width: 30px;
-	height: 2px;
-	background-color: #009600;
-	margin: 25px auto 0;
-}
-
-.service h5 {
-	margin-top: 20px;
-	color: #231f20;
-}
-
-.service p {
-	margin-top: 51px;
-}
-
-/**********************
-CLIENTS SECTION
-***********************/
-
-#clients {
-	padding: 145px 0 150px;
-}
-
-.clients-content {
-	text-align: center;
-}
-
-.clients-content blockquote {
-	color: #231f20;
-	font-size: 15px;
-	margin-top: 37px;
-}
-
-.clients-content blockquote footer {
-	margin-top: 30px;
-	color: #999999;
-}
-
-.clients-content blockquote footer:before {
-	content: '';
-}
-
-.clients-logs-container {
-	margin-top: 115px;
-	text-align: center;
-}
-
-/**********************
-CONTACT SECTION
-***********************/
-
-#contact {
-	background-color: #101012;
-	color: #ffffff;
-	padding: 55px 0 58px;
-}
-
-.contact-subsection {
-	border: 1px solid #707070;
-	text-align: center;
-	min-height: 500px;
-	box-sizing: border-box;
-}
-
-#about-subsection {
-	padding: 95px 92px 149px;
-}
-
-#about-subsection h2:after {
-	display: block;
-	content: '';
-	width: 30px;
-	height: 2px;
-	background-color: #00fc2a;
-	margin: 46px auto 0;
-}
-
-#about-subsection p {
-	margin-top: 54px;
-}
-
-#form-subsection {
-	padding: 95px 70px 76px;
-	overflow: hidden;
-}
-
-#form-subsection .email-label {
-	margin-top: 28px;
-}
-
-#form-subsection input {
-	padding: 0 5px;
-	height: 33px;
-}
-
-#form-subsection .message-label {
-	margin-top: 60px;
-}
-
-#form-subsection textarea {
-	margin: 0;
-	padding: 0 5px;
-	border: 0;
-	box-sizing: border-box;
-	resize: none;
-	font-size: 15px;
-	line-height: 50px;
-	vertical-align: bottom;
-	background: linear-gradient(transparent 49px, #707070 1px);
-	background-size: 100% 50px;
-	background-repeat: repeat-y;
-}
-
-#form-subsection textarea:focus,
-#form-subsection textarea:active {
-	background: linear-gradient(transparent 49px, #ffffff 1px);
-	background-size: 100% 50px;
-	background-repeat: repeat-y;
-}
-
-#form-subsection .btn-default {
-	color: #04df04;
-	background: transparent;
-	border: 0;
-	border-color: transparent;
-	border-radius: 0;
-	padding: 10px 0;
-	margin-top: 38px;
-	outline: none;
-	box-shadow: none;
-}
-
-#form-subsection .btn-default:hover,
-#form-subsection .btn-default.active.focus, 
-#form-subsection .btn-default.active:focus, 
-#form-subsection .btn-default.active:hover, 
-#form-subsection .btn-default:active.focus, 
-#form-subsection .btn-default:active:focus, 
-#form-subsection .btn-default:active:hover {
-	color: #ffffff;
-}
-
-/**********************
-FOOTER SECTION
-***********************/
-
-#footer {
-	background: #009600;
-	color: #ffffff;
-	padding: 55px 0;
-}
-
-#footer .copyright {
-	font-family: 'Montserrat', serif;
-}
-
-#footer .social-list {
-	float: right;
-}
-
-/**********************
-HELPER CLASSES
-***********************/
-
-.is-visuallyhidden {
-  border: 0;
-  clip: rect(0 0 0 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px;
-}
-
-.grabbable {
-    cursor: move;
-    cursor: grab;
-    cursor: -moz-grab;
-    cursor: -webkit-grab;
-}
-
-.grabbing { 
-    cursor: grabbing;
-    cursor: -moz-grabbing;
-    cursor: -webkit-grabbing;
-}
-
-/**********************
-RESPONSIVE
-***********************/
-
-@media only screen and (max-width: 1199px) {
-	
-	/**********************
-	CONTACT SECTION
-	***********************/
-	
-	#about-subsection, #form-subsection {
-		padding: 95px 70px 70px;
-		flex-direction: column;
-		height: 120px;
-		justify-content: space-evenly;
-		min-height: 560px;
-	}
-
-	}
-
-@media only screen and (max-width: 991px) {
-
-	/**********************
-	SERVICES SECTION
-	***********************/
-    .service:not(first-of-type) {
-        margin-top: 30px;
-    }
-
-    /**********************
-	CONTACT SECTION
-	***********************/
-
-	#about-subsection, #form-subsection {
-		padding: 80px;
-		min-height:auto;
-	}
-
-	#form-subsection {
-		margin-top: 55px;
-	}
-
-}
-
-.dire{
-color:#e4e4e4;
-
-}
-
-@media only screen and (max-width: 767px) {
-	
-	/**********************
-	DEFAULT
-	***********************/
-
-	h1, h2, h3, h4, h5, h6 {
-		line-height: 1.5;
-	}
-
-	/**********************
-	NAVBAR
-	***********************/
-
-	.navbar-default .navbar-nav {
-		text-align: center;
-	}
-
-	.navbar-default .navbar-nav>li>a {
-		padding: 20px 0;
-	}
-
-	/**********************
-	HOME SECTION
-	***********************/
-	
-	.home-content {
-		transform: translateY(-55%);
-	}
-	
-	.home-content .h1,
-	.home-content h2 {
-		font-size: 42px;
-	}
-
-	/**********************
-	SERVICES SECTION
-	***********************/
-    .service {
-        padding: 30px;
-    }
-
-	/**********************
-	CLIENTS SECTION
-	***********************/
-	.single-client-container:not(first-of-type) {
-		margin-top: 60px;
-	}
-
-	/**********************
-	CONTACT SECTION
-	***********************/
-
-	#about-subsection, #form-subsection {
-		padding: 60px 30px;
-		min-height: auto;
-	}
-
-
-	/**********************
-	FOOTER SECTION
-	***********************/
-	#footer {
-		text-align: center;
-	}
-
-	#footer .social-list {
-		float: none;
-		margin-top: 45px;
-	}
-
-}
-
-@media only screen and (max-width: 575px) {
-
-	/**********************
-	HOME SECTION
-	***********************/
-
-	.home-content .btn {
-		display: block;
-		margin: 0 auto;
-	}
-
-	.home-content .btn-primary {
-		margin-top: 30px;
-	}
-
-}
+	<!-- Custom JS -->
+	<script src="js/custom.js"></script>
+
+</body>
+</html>
