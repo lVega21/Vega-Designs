@@ -32,7 +32,7 @@ p {
 }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, label, button, .btn {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Montserrat', serif;
 	text-transform: uppercase;
 	margin: 0;
 }
@@ -125,7 +125,7 @@ NAVBAR
 
 .navbar {
 	min-height: 90px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Montserrat', serif;
 	text-transform: uppercase;
 }
 
@@ -529,7 +529,7 @@ FOOTER SECTION
 }
 
 #footer .copyright {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Montserrat', serif;
 }
 
 #footer .social-list {
