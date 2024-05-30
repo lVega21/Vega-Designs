@@ -8,6 +8,7 @@ body {
 	font-size: 15px;
 	color: #637988;
 	line-height: 1.7;
+	min-height: 800px;
 }
 	
 ul, ol {
@@ -576,7 +577,7 @@ RESPONSIVE
 	#about-subsection, #form-subsection {
 		padding: 95px 70px 70px;
 		flex-direction: column;
-		height: 900px;
+		height: 500px;
 		justify-content: space-evenly;
 		min-height: 560px;
 	}
@@ -600,7 +601,7 @@ RESPONSIVE
 		padding: 80px;
 		
 		flex-direction: column;
-		height: 800px;
+		height: 500px;
 		justify-content: space-evenly;
 		min-height:auto;
 	}
@@ -672,7 +673,7 @@ color:#e4e4e4;
 	#about-subsection, #form-subsection {
 		padding: 60px 30px;
 	flex-direction: column;
-		height: 800px;
+		height: 500px;
 		justify-content: space-evenly;
 		min-height: auto;
 	}
