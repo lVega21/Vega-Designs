@@ -577,7 +577,7 @@ RESPONSIVE
 	#about-subsection, #form-subsection {
 		padding: 95px 70px 70px;
 		flex-direction: column;
-		height: 800px;
+		height: 1199px;
 		justify-content: space-evenly;
 		min-height: 560px;
 	}
