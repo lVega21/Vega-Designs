@@ -599,6 +599,10 @@ RESPONSIVE
 
 	#about-subsection, #form-subsection {
 		padding: 80px;
+		
+		flex-direction: column;
+		height: 1200px;
+		justify-content: space-evenly;
 		min-height:auto;
 	}
 
@@ -668,6 +672,9 @@ color:#e4e4e4;
 
 	#about-subsection, #form-subsection {
 		padding: 60px 30px;
+	flex-direction: column;
+		height: 1200px;
+		justify-content: space-evenly;
 		min-height: auto;
 	}
 
