@@ -376,21 +376,19 @@
 							
 							<h2 class="sub-section-title">Contacto</h2>
 
-							<form action="send_email.php" method="post"> 
+							<form action="https://formspree.io/f/xvoejobk" method="post">
+    <div class="form-group">
+        <label class="email-label" for="Email">Email</label>
+        <input type="email" class="form-control" id="Email" name="email" required>
+    </div>
 
-								<div class="form-group">
-									<label class="email-label" for="Email">Email</label>
-									<input type="email" class="form-control" id="Email" name="email" required> 
-								</div>
-
-								<div class="form-group">
-								    <label class="message-label" for="Message">Mensaje</label>
-								  	<textarea class="form-control" name="message" id="Message" rows="3" required></textarea>
-								</div>
-							  
-							  	<button type="submit" class="btn btn-default pull-right">Enviar</button>
-
-							</form>
+    <div class="form-group">
+        <label class="message-label" for="Message">Mensaje</label>
+        <textarea class="form-control" id="Message" name="message" rows="3" required></textarea>
+    </div>
+    
+    <button type="submit" class="btn btn-default pull-right">Enviar</button>
+</form>
 
 						</div>
 
