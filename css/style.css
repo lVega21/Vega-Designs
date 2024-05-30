@@ -577,7 +577,7 @@ RESPONSIVE
 	#about-subsection, #form-subsection {
 		padding: 95px 70px 70px;
 		flex-direction: column;
-		height: 1000px;
+		height: 1200px;
 		justify-content: space-evenly;
 		min-height: 560px;
 	}
@@ -601,7 +601,7 @@ RESPONSIVE
 		padding: 80px;
 		
 		flex-direction: column;
-		height: 1000px;
+		height: 1200px;
 		justify-content: space-evenly;
 		min-height:auto;
 	}
@@ -673,7 +673,7 @@ color:#e4e4e4;
 	#about-subsection, #form-subsection {
 		padding: 60px 30px;
 	flex-direction: column;
-		height: 1000px;
+		height: 1200px;
 		justify-content: space-evenly;
 		min-height: auto;
 	}
